@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 50%;
+    margin: auto;
+    border: 1px solid;
+    height: 50vh;
+    margin-top: 200px;
+    text-align: center;
+}
+.list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    
+}
+.add-btn{
+    padding: 10px;
+    margin-left: -6px;
+    cursor: pointer;
+}
+.todo-item{
+    margin-top: 30px;
+}
+
+
